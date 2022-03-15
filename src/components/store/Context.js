@@ -4,7 +4,9 @@ const Context = createContext({
 });
 
 export const ContextProvider = (props) => {
-  const [value, setValue] = useState(`# Welcome to my React Markdown Previewer!
+  const [value, setValue] = useState(`
+  [Link to my code](https://github.com/TranHBach/md-preview)
+  # Welcome to my React Markdown Previewer!
 
   ## This is a sub-heading...
   ### And here's some other cool stuff:
