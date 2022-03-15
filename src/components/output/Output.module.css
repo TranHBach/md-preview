@@ -1,0 +1,15 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
